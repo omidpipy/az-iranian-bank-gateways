@@ -6,3 +6,4 @@ from .idpay import IDPay
 from .zibal import Zibal
 from .bahamta import Bahamta
 from .mellat import Mellat
+from .pasargad import PASARGAD
