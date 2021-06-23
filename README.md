@@ -25,6 +25,8 @@
  1. [درگاه پرداخت باهمتا](https://webpay.bahamta.com?rc=Sv7oH)
  
  1. [درگاه به پرداخت](http://www.behpardakht.com/)
+
+ 1. [درگاه پرداخت پاسارگاد](https://pep.co.ir/ipg/#docipg)
  
 [[_TOC_]]
 
@@ -85,6 +87,13 @@ AZ_IRANIAN_BANK_GATEWAYS = {
             'TERMINAL_CODE': '<YOUR TERMINAL CODE>',
             'USERNAME': '<YOUR USERNAME>',
             'PASSWORD': '<YOUR PASSWORD>',
+        },
+        'PASARGAD': {
+            'MERCHANT_NAME': '<YOUR MERCHANT NAME>', # show your brand name in the gateway bank
+            'MERCHANT_CODE': '<YOUR MERCHANT CODE>',
+            'TERMINAL_CODE': '<YOUR TERMINAL CODE>',
+            'PEM_CODE': '<YOUR PEM CODE>', # your private key 
+            'ACTION_CODE': '<YOUR ACTION CODE>', # type transaction (payment: 1003) -> type int
         },
     },
     'DEFAULT': 'BMI',
