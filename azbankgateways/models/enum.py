@@ -11,6 +11,7 @@ class BankType(settings.TEXT_CHOICES):
     ZIBAL = 'ZIBAL', _('Zibal')
     BAHAMTA = 'BAHAMTA', _('Bahamta')
     MELLAT = 'MELLAT', _('Mellat')
+    PASARGAD = 'PASARGAD', _('Pasargad')
 
 
 class CurrencyEnum(settings.TEXT_CHOICES):
